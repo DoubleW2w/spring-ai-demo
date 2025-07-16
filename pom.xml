@@ -11,6 +11,7 @@
     <groupId>com.git.doublew2w.springai</groupId>
     <artifactId>spring-ai-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>spring-ai-demo</name>
     <description>Spring AI , getting started example, using Open AI</description>
     <url/>
@@ -20,6 +21,9 @@
     <developers>
         <developer/>
     </developers>
+    <modules>
+        <module>S01-chat-demo</module>
+    </modules>
     <scm>
         <connection/>
         <developerConnection/>

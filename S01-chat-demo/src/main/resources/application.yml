@@ -1,0 +1,16 @@
+
+spring:
+  ai:
+    model:
+      chat: zhipuai
+    zhipuai:
+      # 用于链接
+      api-key: ff45fa4e33694e46841c7e13a1df05f6.Rkly7K7269I5hzZ0
+      chat:
+        # 用于chat
+        base-url: https://open.bigmodel.cn/api/paas
+        api-key: ff45fa4e33694e46841c7e13a1df05f6.Rkly7K7269I5hzZ0
+  application:
+    name: springAI-zhipu-chat
+server:
+  port: 8080
